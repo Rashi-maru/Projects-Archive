@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color:lavender;text-align: center;">
+
+    <form action="phpcheck.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            Class no:
+            <select name="classnumber" id="classnumber">
+  <option value="VL2021220104192">VL2021220104192</option>
+  <option value="VL2021220104045">VL2021220104045</option>
+</select>
+            <br><br> Name: <input type="text" name="name">
+            <br><br>Reg no: <input type="text" name="regno">
+            <br><br> E-mail: <input type="text" name="email">
+
+            <br><br>Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload File" name="submit">
+    </form>
+    </fieldset>
+</body>
+
+</html>
